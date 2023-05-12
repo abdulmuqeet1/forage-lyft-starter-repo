@@ -3,7 +3,7 @@ from utils import add_years
 
 
 class SpindlerBattery(Battery):
-    def __init__(self, last_service_date, current_date, battery_years_to_add=2):
+    def __init__(self, last_service_date, current_date, battery_years_to_add=3):
         self.last_service_date = last_service_date
         self.current_date = current_date
         self.battery_years_to_add = battery_years_to_add
